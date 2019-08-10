@@ -5,22 +5,22 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Prime</title>
+    <link rel="stylesheet" href="style.css" type="text/css">
 </head>
 <body>
     <h1>Priming</h1>
-    <section class="buttonContainer">
-        <button>Add word</button>
-        <button>Prime</button>
-    </section>
-    <section class="primingWords">
-        
-    </section>
+    <ul class="listOfWords"></ul>
     <section class="addWord">
-        <form>
+        <form id="addWordForm">
             <label>Add new word</label>
             <input type="text" />
             <input type="submit" />
         </form>
     </section>
+    <button class="purple" id="primeButton">Prime</button>
+    <section id="primingWords">
+    
+    </section>
 </body>
+<script src="index.js"></script>
 </html>
